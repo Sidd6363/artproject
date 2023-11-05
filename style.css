@@ -122,6 +122,10 @@
     grid-row: span 1;
 }
 
+.align-items-center {
+        justify-content: center;
+}
+
 .stripe {
     height: 500px;
     display: flex;
