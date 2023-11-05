@@ -1,0 +1,156 @@
+.grid-container {
+        background-color: #FFFBF5;
+}
+
+* {
+    font-family: didot;
+}
+
+.connection {
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(24,1fr);
+    grid-template-rows: repeat(24,1fr);
+    
+}
+
+.small-square {
+    background-color: #DA1212;
+    grid-row: span 1;
+    grid-column: span 1;
+    border: 0.5px solid rgb(78, 0, 0);
+}
+
+.royal {
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,1fr);
+    
+    background-color: rgb(6, 0, 6);
+}
+
+.royal-white {
+    grid-column: span 2;
+    grid-row: span 4;
+    background-color: #DA0C81;
+    border: 1.5px solid black;
+}
+
+.royal-pink {
+    grid-column: span 4;
+    grid-row: span 2;
+    background-color: #940B92;
+    border: 1.5px solid black;
+}
+
+.royal-yellow {
+    background-color: #E95793;
+    grid-column: span 2;
+    grid-row: span 4;
+    border: 1.5px solid black;
+}
+
+.royal-blue {
+    background-color: #610C9F;
+    grid-column: span 2;
+    grid-row: span 4;
+    border: 1.5px solid black;
+}
+
+.joy {
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(16,1fr);
+    
+    background-color: rgb(6, 0, 6);
+}
+
+.joy-one {
+    background-color: #00A9FF;
+    grid-row: span 4;
+    grid-column: span 2;
+    border: 1.5px solid black;
+}
+
+.joy-two {
+    background-color: #89CFF3;
+    grid-row: span 10;
+    grid-column: span 2;
+    border: 1.5px solid black;
+}
+
+.joy-three {
+    
+    background-color: #A0E9FF;
+    grid-row: span 16;
+    grid-column: span 2;
+    border: 1.5px solid black;
+}
+
+
+.frame {
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    background-color: #000000
+}
+
+.frame-all {
+   background-color: #FDF0F0;
+   border: 5px solid black;
+   margin: 0;
+   padding: 0;
+}
+
+.frame-two {
+    grid-column: span 4;
+    grid-row: span 3;
+}
+
+.frame-one {
+    background-color: #F1B4BB;
+    grid-column: span 2;
+    grid-row: span 1;
+    order: 1;
+}
+
+.frame-three {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.stripe {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C3ACD0;
+}
+
+.stripe-all {
+    border-radius: 50%;
+    background-color: #F7EFE5;
+    border: 5px solid black;
+    width: 80%;
+    height: 80%;
+}
+
+.blue {
+    background-color: #FF1818;
+    order: 1;
+}
+
+#blue-one {
+    background-color: #FF5959;
+}
+
+.onetwothree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    height: 100vh;
+}
